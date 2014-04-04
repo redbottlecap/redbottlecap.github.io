@@ -29,7 +29,8 @@ body {
 	position: absolute;
 	top: 40px;
 	left: 491px;
-	margin: 10px;}
+	margin: 10px;
+	font-family: 'Droid Sans','Lobster';}
 #center {
 	display: block;
 	margin-top: 10px;
