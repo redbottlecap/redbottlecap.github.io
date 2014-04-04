@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Todo List</title>
+		<link href="style.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Lobster' rel='stylesheet' type='text/css'>
+		<script>
+			function addText(){
+				// Store the value of the input to a variable
+				var input = document.getElementById('input').value;
+				// Add that input to a list to dynamically create one
+				document.getElementById('do').innerHTML += "<li>" + input + "</li>";
+				//Clear the text box after adding item to list
+				document.getElementById('input').value = ""
+			}
+		</script>
+	</head>
+	<body class="bananas">
+		<nav class="navigation">
+			<a href="index.html" id="left">Harrison Lew</a>
+			<a href="about.html" id="right">About Me</a>
+			<a href="projects.html" id="right2">Projects</a>
+		</nav>
+		<div class="crap">
+			<input type= "text" id="input" onkeydown="if (event.keyCode == 13) document.getElementById('add').click()" />
+			<input type= "button" id="add" onclick="addText()" value= "Add Todo Item" />
+			<p id="do"></p>
+		</div>
+	</body>
+</html>

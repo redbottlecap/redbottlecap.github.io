@@ -1,0 +1,52 @@
+body {
+	background: url("http://fc00.deviantart.net/fs30/i/2008/148/b/8/Wood_floor_by_gnrbishop.jpg");
+	color: #000;
+	margin: 0px;}
+.navigation {
+	background: url("http://puu.sh/7T4cG.jpg");
+	width: 100%;
+	height: 55px;}
+.navigation a {
+	font-family: 'Lobster','Droid Sans';
+	font-size: 50px;
+	text-decoration: none;
+	color: #000;}
+.navigation a:hover {color: #fff;
+	text-decoration: underline;}
+#left {float: left;
+	margin-left: 7px;
+	margin-top: -5px}
+#right {float: right;
+	margin-right: 7px;
+	margin-top: -5px;}
+#right2 {float: right;
+	margin-right: 20px;
+	margin-top: -5px;}
+.pineapple {
+	margin-top: 10px;
+	margin-left: 10px;}
+.absolut {
+	position: absolute;
+	top: 40px;
+	left: 491px;
+	margin: 10px;}
+#center {
+	display: block;
+	margin-top: 10px;
+	text-align: center;}
+#centertext {
+	text-align: center;
+	font-family: 'Droid Sans','Lobster';}
+#leftpart {
+	float: left;
+	margin-top: 20px;}
+.crap {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.bananas {
+	font-family: 'Droid Sans','Lobster';
+}
+.omg {
+	margin-left: 10px;
+}
