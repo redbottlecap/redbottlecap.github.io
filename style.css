@@ -30,7 +30,8 @@ body {
 	top: 40px;
 	left: 491px;
 	margin: 10px;
-	font-family: 'Droid Sans','Lobster';}
+	font-family: 'Droid Sans','Lobster';
+	}
 #center {
 	display: block;
 	margin-top: 10px;
@@ -43,11 +44,13 @@ body {
 	margin-top: 20px;}
 .crap {
 	margin-top: 10px;
-	margin-left: 10px;
-}
+	margin-left: 10px;}
 .bananas {
-	font-family: 'Droid Sans','Lobster';
-}
+	font-family: 'Droid Sans','Lobster';}
 .omg {
-	margin-left: 10px;
-}
+	margin-left: 10px;}
+#chuu2pls{
+	position: absolute;
+	top: 175px;
+	left: 491px;
+	margin: 10px;}
